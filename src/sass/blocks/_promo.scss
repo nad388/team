@@ -12,6 +12,7 @@
     } 
 }
 .menu {
+
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -23,11 +24,20 @@
         justify-content: space-between;
         margin: 0;
         padding: 0;
+        height: 40px;
     }
     &__link {
-        margin-left: 49px;
+        margin-left: 6px;
         font-size: 14px;
         font-weight: 500;
+        padding-bottom: 12.5px;
+        padding-top: 8px;
+        width: 81px;
+        text-align: center;
+        
+        &:hover {
+            border-bottom: 2px solid $main-color;
+        }
         a {
             color: #FFFFFF;
             &:hover {
