@@ -1,0 +1,41 @@
+@import '../css/bootstrap-grid.min.css';
+@import '../css/bootstrap-reboot.min.css';
+@import '../css/owl.carousel.min.css';
+@import '../css/owl.theme.default.min.css';
+@import 'libs/animate';
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Muli', sans-serif;
+    box-sizing: border-box;  
+}
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a { 
+    text-decoration: none;
+}
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    //fill: inherit;
+}
+
+.container {
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/hub';
+@import 'blocks/titles';
+@import 'blocks/subtitles';
+@import 'blocks/map';
+@import 'blocks/schedule';
+@import 'blocks/quotes';
+@import 'blocks/footer';

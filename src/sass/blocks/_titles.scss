@@ -1,0 +1,14 @@
+.title {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 800;
+    color: $text-color;
+    &_left {
+        margin-top: 244px;
+        text-align: left;
+    }
+    &_center {
+        padding-top: 80px;
+        text-align: center;
+    }
+}

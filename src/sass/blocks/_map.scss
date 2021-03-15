@@ -1,0 +1,37 @@
+.map {
+    position: relative;
+    display: flex;
+    min-height: 713px;
+    background-color: $bg-color;
+    &__content {
+        width: 465px;
+        margin-left: 732px;
+        margin-top: -80px;
+    }
+    &__image {
+        position: absolute;
+        right: 100%;
+        top: 60px;
+        bottom: 0;
+        transform: translateX(100%);
+    }
+    
+    &__link {
+        margin-top: 40px;
+        &-learn {
+            color: $main-color;
+            &:hover {
+                color: $text-color;
+            }
+            &_hover {
+                margin-left: 16px;
+                &:hover  {
+                    svg path {
+                        fill: $text-color;
+                    }
+                } 
+            }
+        }
+    }
+    
+}

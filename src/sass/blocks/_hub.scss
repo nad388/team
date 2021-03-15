@@ -1,0 +1,31 @@
+.hub {
+    position: relative;
+    min-height: 628px;
+    &__content {
+        width: 465px;
+    }
+    &__link {
+        margin-top: 40px;
+        &-learn {
+            color: $main-color;
+            &:hover {
+                color: $text-color;
+            }
+            &_hover {
+                margin-left: 16px;
+                &:hover  {
+                    svg path {
+                        fill: $text-color;
+                    }
+                } 
+            }
+        }
+    }
+    &__image {
+        position: absolute;
+        left: 100%;
+        top: -160px;
+        bottom: 0;
+        transform: translateX(-100%);
+    }
+}
