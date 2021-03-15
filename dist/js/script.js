@@ -24,5 +24,22 @@ jQuery(function(){
       owl.trigger("prev.owl.carousel");
     });
   
+
+
+    $(window).on('scroll', function() {
+          if ($(this).scrollTop() > 900) {
+          $('.pageup').fadeIn();
+          } else {
+          $('.pageup').fadeOut();
+          }
+      });
+      
+      $("a[href='#up']").on('click', function() {
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+      });
+      new WOW().init();
+
+  
 });
   

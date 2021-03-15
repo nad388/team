@@ -3,50 +3,6 @@
     min-width: 100%;
     background: url('../img/main__page/main__bg.jpg') center center/cover no-repeat;
     padding-top: 24px;
-
-.header {
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    } 
-}
-.menu {
-
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &__list {
-        display: flex;
-        list-style-type: none;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0;
-        height: 40px;
-    }
-    &__link {
-        margin-left: 6px;
-        font-size: 14px;
-        font-weight: 500;
-        padding-bottom: 12.5px;
-        padding-top: 8px;
-        width: 81px;
-        text-align: center;
-        
-        &:hover {
-            border-bottom: 2px solid $main-color;
-        }
-        a {
-            color: #FFFFFF;
-            &:hover {
-                color: $main-color;
-                text-shadow:  1px 1px 2px, 0 0 1em $main-color;
-            }
-        }
-    }
-}
     .btn_nocolor {
             width: 112px;
             height: 40px;

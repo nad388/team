@@ -6,9 +6,25 @@
     &_left {
         margin-top: 244px;
         text-align: left;
+        &_mt103 {
+            margin-top: 103px;
+        }
     }
     &_center {
         padding-top: 80px;
         text-align: center;
+        &_pt64 {
+            padding: 64px 200px 0;
+            text-align: left;
+        }
+    }
+    &_fz24 {
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: capitalize;
+        font-weight: 600;
+        &_nocap {
+            text-transform: none;
+        }
     }
 }
