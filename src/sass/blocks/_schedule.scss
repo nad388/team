@@ -1,6 +1,12 @@
 .schedule {
-    position: relative;
-    min-height: 500px;
+    min-height: 719px;
+    margin-top: 30px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1440px;
+    }
     &__content {
         width: 465px;
     }
@@ -22,9 +28,6 @@
         }
     }
     &__image {
-        position: absolute;
-        left: 100%;
-        top: -220px;
-        transform: translateX(-100%);
+        margin-right: 150px;
     }
 }

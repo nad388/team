@@ -1,5 +1,6 @@
+//owl-carousel
 
-jQuery(function(){
+jQuery(function () {
     $(".slider__inner").owlCarousel({
 
       loop: true,
@@ -24,7 +25,7 @@ jQuery(function(){
       owl.trigger("prev.owl.carousel");
     });
   
-
+//pageup
 
     $(window).on('scroll', function() {
           if ($(this).scrollTop() > 900) {
@@ -39,7 +40,24 @@ jQuery(function(){
           return false;
       });
       new WOW().init();
-
-  
 });
   
+//hamburger
+
+window.addEventListener('DOMContentLoaded', () => {
+  const menu = document.querySelector('.menu__list'),
+  menuItem = document.querySelectorAll('.menu___link'),
+  hamburger = document.querySelector('.hamburger');
+
+  hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('hamburger_active');
+      menu.classList.toggle('menu__list_active');
+  });
+
+  menuItem.forEach(item => {
+      item.addEventListener('click', () => {
+          hamburger.classList.toggle('hamburger_active');
+          menu.classList.toggle('menu__list_active');
+      });
+  });
+});

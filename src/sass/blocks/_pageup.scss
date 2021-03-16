@@ -2,9 +2,10 @@
     display: none;
     position: fixed;
     bottom: 40px;
-    right: 40px;
+    right: 250px;
     width: 40px;
     height: 40px;
+    z-index: 10;
     img {
         width: 100%;
     }

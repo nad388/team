@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>team.inc</title>
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -24,6 +44,12 @@
                                 </ul>
                                 <button class="btn btn_nocolor">Get Access</button>
                             </div>
+                            <div class="menu__overlay"></div>
+                            <div class="hamburger">
+                                <span></span>
+                                <span class="middle"></span>
+                                <span></span>
+                            </div>
                         </nav>
                 </div>
             </header>
@@ -42,62 +68,68 @@
         </div>
     </section>
     <section class="hub" id="hub">
-        <div class="hub__image">
-                <img src="img/main__page/hub__pic.png" alt="picture">
-        </div>
-        <div class="container">
-            <div class="hub__content">
-                <h2 class="title title_left">Your hub for teamwork</h2>
+            <div class="container">
+                <div class="hub__wrapper">
+                    <div class="hub__content">
+                        <h2 class="title title_left">Your hub for teamwork</h2>
+                        <div class="subtitle subtitle_left">
+                            A channel is the place for everything related to a project, topic or team. Everyone in a channel sees the same messages and stays on the same page.
+                        </div>
+                        <div class="hub__link">
+                            <a href="#" class="hub__link-learn">Learn More</a>
+                            <a href="#" class="hub__link-learn hub__link-learn_hover">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1188 11.0039H5.10876C4.55876 11.0039 4.10876 11.4539 4.10876 12.0039C4.10876 12.5539 4.55876 13.0039 5.10876 13.0039H16.1188V14.7939C16.1188 15.2439 16.6588 15.4639 16.9688 15.1439L19.7488 12.3539C19.9388 12.1539 19.9388 11.8439 19.7488 11.6439L16.9688 8.85392C16.6588 8.53392 16.1188 8.76392 16.1188 9.20392V11.0039Z" fill="#17CAFF"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hub__image">
+                        <img src="img/main__page/hub__pic.png" alt="picture">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="map" id="map">
+        <div class="map__wrapper">
+            <div class="map__image">
+                <img src="img/main__page/map__pic.png" alt="picture">
+            </div>
+            <div class="map__content">
+                <h2 class="title title_left">Map out your workflow, from ideas to action.</h2>
                 <div class="subtitle subtitle_left">
                     A channel is the place for everything related to a project, topic or team. Everyone in a channel sees the same messages and stays on the same page.
                 </div>
-                <div class="hub__link">
-                    <a href="#" class="hub__link-learn">Learn More</a>
-                    <a href="#" class="hub__link-learn hub__link-learn_hover">
+                <div class="map__link">
+                    <a href="#" class="map__link-learn">Learn More</a>
+                    <a href="#" class="map__link-learn map__link-learn_hover">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.1188 11.0039H5.10876C4.55876 11.0039 4.10876 11.4539 4.10876 12.0039C4.10876 12.5539 4.55876 13.0039 5.10876 13.0039H16.1188V14.7939C16.1188 15.2439 16.6588 15.4639 16.9688 15.1439L19.7488 12.3539C19.9388 12.1539 19.9388 11.8439 19.7488 11.6439L16.9688 8.85392C16.6588 8.53392 16.1188 8.76392 16.1188 9.20392V11.0039Z" fill="#17CAFF"/>
                         </svg>
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="map" id="map">
-        <div class="map__image">
-            <img src="img/main__page/map__pic.png" alt="picture">
-        </div>
-        <div class="map__content">
-            <h2 class="title title_left">Map out your workflow, from ideas to action.</h2>
-            <div class="subtitle subtitle_left">
-                A channel is the place for everything related to a project, topic or team. Everyone in a channel sees the same messages and stays on the same page.
-            </div>
-            <div class="map__link">
-                <a href="#" class="map__link-learn">Learn More</a>
-                <a href="#" class="map__link-learn map__link-learn_hover">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.1188 11.0039H5.10876C4.55876 11.0039 4.10876 11.4539 4.10876 12.0039C4.10876 12.5539 4.55876 13.0039 5.10876 13.0039H16.1188V14.7939C16.1188 15.2439 16.6588 15.4639 16.9688 15.1439L19.7488 12.3539C19.9388 12.1539 19.9388 11.8439 19.7488 11.6439L16.9688 8.85392C16.6588 8.53392 16.1188 8.76392 16.1188 9.20392V11.0039Z" fill="#17CAFF"/>
-                    </svg>
-                </a>
             </div>
         </div>
     </section>
     <section class="schedule">
-        <div class="schedule__image">
-                <img src="img/main__page/schedule__pic.png" alt="picture">
-        </div>
         <div class="container">
-            <div class="schedule__content">
-                <h2 class="title title_left">Scheduling that actually works</h2>
-                <div class="subtitle subtitle_left">
-                    A channel is the place for everything related to a project, topic or team. Everyone in a channel sees the same messages and stays on the same page.
+            <div class="schedule__wrapper">
+                <div class="schedule__content">
+                    <h2 class="title title_left">Scheduling that actually works</h2>
+                    <div class="subtitle subtitle_left">
+                        A channel is the place for everything related to a project, topic or team. Everyone in a channel sees the same messages and stays on the same page.
+                    </div>
+                    <div class="schedule__link">
+                        <a href="#" class="schedule__link-learn">Learn More</a>
+                        <a href="#" class="schedule__link-learn schedule__link-learn_hover">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.1188 11.0039H5.10876C4.55876 11.0039 4.10876 11.4539 4.10876 12.0039C4.10876 12.5539 4.55876 13.0039 5.10876 13.0039H16.1188V14.7939C16.1188 15.2439 16.6588 15.4639 16.9688 15.1439L19.7488 12.3539C19.9388 12.1539 19.9388 11.8439 19.7488 11.6439L16.9688 8.85392C16.6588 8.53392 16.1188 8.76392 16.1188 9.20392V11.0039Z" fill="#17CAFF"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="schedule__link">
-                    <a href="#" class="schedule__link-learn">Learn More</a>
-                    <a href="#" class="schedule__link-learn schedule__link-learn_hover">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.1188 11.0039H5.10876C4.55876 11.0039 4.10876 11.4539 4.10876 12.0039C4.10876 12.5539 4.55876 13.0039 5.10876 13.0039H16.1188V14.7939C16.1188 15.2439 16.6588 15.4639 16.9688 15.1439L19.7488 12.3539C19.9388 12.1539 19.9388 11.8439 19.7488 11.6439L16.9688 8.85392C16.6588 8.53392 16.1188 8.76392 16.1188 9.20392V11.0039Z" fill="#17CAFF"/>
-                        </svg>
-                    </a>
+                <div class="schedule__image">
+                    <img src="img/main__page/schedule__pic.png" alt="picture">
                 </div>
             </div>
         </div>
