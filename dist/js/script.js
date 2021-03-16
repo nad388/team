@@ -28,7 +28,7 @@ jQuery(function () {
 //pageup
 
     $(window).on('scroll', function() {
-          if ($(this).scrollTop() > 900) {
+          if ($(this).scrollTop() > 800) {
           $('.pageup').fadeIn();
           } else {
           $('.pageup').fadeOut();
